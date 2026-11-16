@@ -7,6 +7,9 @@ name = "opensot-viser-tools"
 version = "5.0.0"
 description = "Optional visualization tools for pyopensot"
 requires-python = ">=3.10"
+dependencies = ["viser<=1.0.26", "yourdfpy", "h5py", "scipy" ]
+readme = "README.md"
+license = "Apache-2.0"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/opensot_viser_tools" ]

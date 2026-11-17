@@ -11,6 +11,9 @@ dependencies = ["viser<=1.0.26", "yourdfpy", "h5py", "scipy" ]
 readme = "README.md"
 license = "Apache-2.0"
 
+[project.scripts]
+replay = "opensot_viser_tools.replay:main"
+
 [tool.hatch.build.targets.wheel]
 packages = ["src/opensot_viser_tools" ]
 
